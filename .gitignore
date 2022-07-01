@@ -12,6 +12,8 @@
 *.sif
 *.dll
 *.pyc
+*.stdout
+*.stderr
 __pycache__
 
 Obj_*
