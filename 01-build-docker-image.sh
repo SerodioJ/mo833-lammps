@@ -1,1 +1,1 @@
-docker build -t ubuntu:mpi-dev .
+docker build -t ubuntu:mpi-dev -f Dockerfile.dev .
