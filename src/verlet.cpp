@@ -244,7 +244,7 @@ void Verlet::run(int n)
   else sortflag = 0;
 
   for (int i = 0; i < n; i++) {
-    //begin_timestep_();
+    begin_timestep_();
     if (timer->check_timeout(i)) {
       update->nsteps = i;
       break;
@@ -358,7 +358,7 @@ void Verlet::run(int n)
       timer->stamp(Timer::OUTPUT);
     }
     // End paramount iteration
-    // end_timestep_();
+    end_timestep_();
   }
 }
 
