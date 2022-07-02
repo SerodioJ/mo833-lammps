@@ -1,0 +1,12 @@
+.gitignore
+.gitattributes
+*.stderr
+*.stdout
+*.sh
+
+Dockerfile*
+README
+LICENSE
+
+.github/
+build/
