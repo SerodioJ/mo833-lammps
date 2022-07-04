@@ -38,7 +38,7 @@ using namespace LAMMPS_NS;
 
 int main(int argc, char **argv)
 {
-  init_timestep_();
+  // init_timestep_();
   MPI_Init(&argc,&argv);
 
 // enable trapping selected floating point exceptions.
@@ -75,6 +75,6 @@ int main(int argc, char **argv)
   delete lammps;
 #endif
   MPI_Barrier(MPI_COMM_WORLD);
-  exit_timestep_();
+  // exit_timestep_();
   MPI_Finalize();
 }
