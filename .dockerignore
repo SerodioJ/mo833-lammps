@@ -9,4 +9,16 @@ README
 LICENSE
 
 .github/
+bench/
 build/
+build_scripts/
+doc/
+examples/
+exec_scripts/
+fortran/
+lib/
+potentials/
+python/
+tools/
+unitest/
+
