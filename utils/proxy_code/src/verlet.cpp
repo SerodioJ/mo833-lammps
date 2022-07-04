@@ -245,7 +245,7 @@ void Verlet::run(int n)
   else sortflag = 0;
 
   const char* str_pi_exec = std::getenv("PI_EXEC");
-  if (str_pi_exec != NULL) {
+  if (str_pi_exec != NULL && atoi(str_pi_exec) != 0) {
     pi_exec = atoi(str_pi_exec);
   }
 
